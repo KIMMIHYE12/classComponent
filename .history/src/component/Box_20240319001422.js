@@ -1,6 +1,6 @@
 import React from "react";
-
-export const Box = (props) => {
+//github.com/KIMMIHYE12/rockpaperscissor.git
+https: export const Box = (props) => {
   console.log("props", props);
   return (
     <div className='box'>

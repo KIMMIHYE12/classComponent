@@ -1,7 +1,8 @@
 import React from "react";
-
+https://github.com/KIMMIHYE12/rockpaperscissor.git
 export const Box = (props) => {
   console.log("props", props);
+-m -
   return (
     <div className='box'>
       <h1>{props.title}</h1>
