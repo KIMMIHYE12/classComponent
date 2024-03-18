@@ -69,7 +69,7 @@ img {
   border: 1px solid #8097dc;
 }
 
-.btn_wrap button.paper {
+.btn_wrap button.papier {
   background-color: #ebbb1f;
   border: 1px solid #dfcf98;
 }
@@ -103,15 +103,6 @@ img {
     rgba(23, 56, 152, 1) 0%,
     rgba(106, 135, 221, 1) 50%,
     rgba(23, 56, 152, 1) 100%
-  );
-}
-
-.btn_wrap button.paper:before {
-  background: linear-gradient(
-    90deg,
-    rgba(139, 113, 30, 1) 0%,
-    rgba(241, 203, 80, 1) 50%,
-    rgba(139, 113, 30, 1) 100%
   );
 }
 

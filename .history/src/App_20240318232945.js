@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import { Box } from "./component/Box";
 
@@ -21,23 +20,21 @@ const choice = {
 };
 
 function App() {
-  const [userSelect, setUserSelect] = useState(null);
-
   const play = (userChoice) => {
-    setUserSelect(choice[userChoice]);
+    console.log("선택됨", userChoice);
   };
 
   return (
     <div className='content'>
       <div className='game_screen'>
-        <Box title='YOU' item={userSelect} />
-        {/* <Box title='COMPUTER' /> */}
+        <Box title='YOU' />
+        <Box title='COMPUTER' />
       </div>
       <div className='btn_wrap'>
         <button
           className='scissor'
           onClick={() => {
-            play("scissor");
+            play("scissors");
           }}
         >
           가위

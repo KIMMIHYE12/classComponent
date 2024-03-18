@@ -61,17 +61,15 @@ img {
 
 .btn_wrap button.scissor {
   background-color: #e83435;
-  border: 1px solid #ec6666;
+  border: 0;
 }
 
-.btn_wrap button.rock {
-  background-color: #2551d1;
-  border: 1px solid #8097dc;
+.btn_wrap button:active:before {
+  top: 6px;
 }
 
-.btn_wrap button.paper {
-  background-color: #ebbb1f;
-  border: 1px solid #dfcf98;
+.btn_wrap button:active {
+  top: 4px;
 }
 
 .btn_wrap button:before {
@@ -81,7 +79,7 @@ img {
   content: "";
   position: absolute;
   top: 10px;
-  left: -1px;
+  left: 0;
   right: 0;
   background: red;
   border-radius: 50%;
@@ -89,36 +87,5 @@ img {
 }
 
 .btn_wrap button.scissor:before {
-  background: linear-gradient(
-    90deg,
-    rgba(143, 25, 25, 1) 0%,
-    rgba(212, 47, 48, 1) 50%,
-    rgba(143, 25, 25, 1) 100%
-  );
-}
-
-.btn_wrap button.rock:before {
-  background: linear-gradient(
-    90deg,
-    rgba(23, 56, 152, 1) 0%,
-    rgba(106, 135, 221, 1) 50%,
-    rgba(23, 56, 152, 1) 100%
-  );
-}
-
-.btn_wrap button.paper:before {
-  background: linear-gradient(
-    90deg,
-    rgba(139, 113, 30, 1) 0%,
-    rgba(241, 203, 80, 1) 50%,
-    rgba(139, 113, 30, 1) 100%
-  );
-}
-
-.btn_wrap button:active {
-  top: 4px;
-}
-
-.btn_wrap button:active:before {
-  top: 6px;
+  background: #b12323;
 }

@@ -1,0 +1,38 @@
+@import url("https://use.typekit.net/ebb2deg.css");
+
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  height: 100vh;
+  padding: 3em 0;
+  background-color: #1b1b1b;
+}
+.game_screen {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 2em;
+  border: 10px solid #fff;
+  background: #333;
+  border-radius: 3rem;
+  box-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 24px #f5b70c, 0 0 16px #f5b70c,
+    0 0 24px #f5b70c, inset 0 0 10px #f5b70c;
+}
+h1 {
+  font-size: 3em;
+  color: #e83435;
+  font-family: "gloridot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+img {
+  width: 70%;
+}

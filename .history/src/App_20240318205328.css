@@ -1,0 +1,18 @@
+.game_screen {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 1em;
+  border: 10px solid green;
+  background: #333;
+  border-radius: 3rem;
+}
+img {
+  width: 70%;
+}

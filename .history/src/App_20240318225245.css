@@ -47,7 +47,6 @@ img {
   display: flex;
   justify-content: center;
   z-index: 1;
-}
 
 .btn_wrap button {
   position: relative;
@@ -56,69 +55,27 @@ img {
   margin: 0 1em;
   border-radius: 50%;
   top: 0;
-  outline: 0;
 }
 
-.btn_wrap button.scissor {
-  background-color: #e83435;
-  border: 1px solid #ec6666;
-}
-
-.btn_wrap button.rock {
-  background-color: #2551d1;
-  border: 1px solid #8097dc;
-}
-
-.btn_wrap button.paper {
-  background-color: #ebbb1f;
-  border: 1px solid #dfcf98;
-}
-
-.btn_wrap button:before {
-  width: 8em;
-  height: 6em;
-  display: inline-block;
-  content: "";
-  position: absolute;
-  top: 10px;
-  left: -1px;
-  right: 0;
-  background: red;
-  border-radius: 50%;
-  z-index: -1;
-}
-
-.btn_wrap button.scissor:before {
-  background: linear-gradient(
-    90deg,
-    rgba(143, 25, 25, 1) 0%,
-    rgba(212, 47, 48, 1) 50%,
-    rgba(143, 25, 25, 1) 100%
-  );
-}
-
-.btn_wrap button.rock:before {
-  background: linear-gradient(
-    90deg,
-    rgba(23, 56, 152, 1) 0%,
-    rgba(106, 135, 221, 1) 50%,
-    rgba(23, 56, 152, 1) 100%
-  );
-}
-
-.btn_wrap button.paper:before {
-  background: linear-gradient(
-    90deg,
-    rgba(139, 113, 30, 1) 0%,
-    rgba(241, 203, 80, 1) 50%,
-    rgba(139, 113, 30, 1) 100%
-  );
+.btn_wrap button:active:before {
+  top: 0;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.7), 0 3px 9px rgba(0, 0, 0, 0.2);
 }
 
 .btn_wrap button:active {
   top: 4px;
 }
 
-.btn_wrap button:active:before {
-  top: 6px;
+.btn_wrap button:before {
+  /* position: absolute; */
+  display: inline-block;
+  content: "";
+  top: 10px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 50px;
+  background: red;
+  transition: all ((0.06 * 1.3) + s) ease-out;
+  box-shadow: 0 1px 0 2px red, 0 5px 24px red, 0 10px 9px red;
 }

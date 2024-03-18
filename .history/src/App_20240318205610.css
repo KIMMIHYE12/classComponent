@@ -1,0 +1,20 @@
+.game_screen {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 1em;
+  border: 0.2rem solid #fff;
+  background: #333;
+  border-radius: 3rem;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+}
+img {
+  width: 70%;
+}

@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  padding: 3em 0;
+  background-color: #111;
+}
+.game_screen {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 2em;
+  border: 10px solid #fff;
+  background: #333;
+  border-radius: 3rem;
+  box-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 24px #f5b70c, 0 0 16px #f5b70c,
+    0 0 24px #f5b70c, inset 0 0 10px #f5b70c;
+}
+img {
+  width: 70%;
+}

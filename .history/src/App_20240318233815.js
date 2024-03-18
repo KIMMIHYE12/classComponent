@@ -31,7 +31,7 @@ function App() {
     <div className='content'>
       <div className='game_screen'>
         <Box title='YOU' item={userSelect} />
-        {/* <Box title='COMPUTER' /> */}
+        <Box title='COMPUTER' />
       </div>
       <div className='btn_wrap'>
         <button

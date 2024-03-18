@@ -1,0 +1,12 @@
+.game_screen {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 30%;
+  background: #333;
+}
+img {
+  width: 100%;
+}
