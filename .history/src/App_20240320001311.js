@@ -65,7 +65,7 @@ function App() {
           }}
         >
           <div className='btn_items'>
-            <img src='/images/btn_scissors.png' />
+            <img src='/images/rock.png' />
             <span>가위</span>
           </div>
         </button>
@@ -75,10 +75,7 @@ function App() {
             play("rock");
           }}
         >
-          <div className='btn_items'>
-            <img src='/images/btn_rock.png' />
-            <span>바위</span>
-          </div>
+          <span>바위</span>
         </button>
         <button
           className='paper'
@@ -86,10 +83,7 @@ function App() {
             play("paper");
           }}
         >
-          <div className='btn_items'>
-            <img src='/images/btn_paper.png' />
-            <span>보</span>
-          </div>
+          <span>보</span>
         </button>
       </div>
     </div>

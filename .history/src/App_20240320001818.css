@@ -160,12 +160,5 @@ img {
 }
 
 .btn_items img {
-  width: 65%;
-}
-
-.btn_items span {
-  font-size: 1em;
-  font-weight: 700;
-  color: white;
-  margin-top: 5px;
+  width: 70%;
 }

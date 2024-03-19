@@ -154,18 +154,4 @@ img {
 
 .btn_items {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  transform: translate(0, -5px) scale(100%, 75%);
-}
-
-.btn_items img {
-  width: 65%;
-}
-
-.btn_items span {
-  font-size: 1em;
-  font-weight: 700;
-  color: white;
-  margin-top: 5px;
 }
