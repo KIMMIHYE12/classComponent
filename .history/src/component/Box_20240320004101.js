@@ -16,7 +16,7 @@ export const Box = (props) => {
 
   return (
     <div className={`box ${result === "Lose" || result === "" ? "" : "neon"}`}>
-      <h1 className={props.title === "YOU" ? "you" : ""}>{props.title}</h1>
+      <h1 className={props.title === "YOU" ? "" : "you"}>{props.title}</h1>
       <div className='img_wrap'>
         <img
           src={props.item && props.item.img}

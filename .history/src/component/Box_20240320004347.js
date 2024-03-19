@@ -24,7 +24,7 @@ export const Box = (props) => {
         />
       </div>
 
-      <h2>{result}</h2>
+      <h2 className={props.title === "YOU" ? "you" : ""}>{result}</h2>
     </div>
   );
 };
