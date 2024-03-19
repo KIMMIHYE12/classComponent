@@ -86,7 +86,7 @@ img {
   top: 0;
   outline: 0;
   font-family: "GmarketSansMedium";
-  background-image: url(/images/btn_rock.png);
+  background-image: url(/public/images/btn_rock.png);
   background-repeat: no-repeat;
   background-size: 80% 60%;
   background-position: top 5px center;
