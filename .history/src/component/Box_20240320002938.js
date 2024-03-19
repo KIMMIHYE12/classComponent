@@ -5,17 +5,17 @@ export const Box = (props) => {
   console.log("title", props.title);
 
   if (
-    props.title === "COMPUTER" &&
-    props.result !== "Tie" &&
-    props.result !== ""
+    props.title == "COMPUTER" &&
+    props.result != "Tie" &&
+    props.result != ""
   ) {
-    result = props.result === "Win" ? "Lose" : "Win";
+    result = props.result == "Win" ? "Lose" : "Win";
   } else {
     result = props.result;
   }
 
   return (
-    <div className={`box ${result === "Lose" || result === "" ? "" : "neon"}`}>
+    <div className={`box ${result == "Lose" || result == "" ? "" : "neon"}`}>
       <h1>{props.title}</h1>
       <div className='img_wrap'>
         <img
