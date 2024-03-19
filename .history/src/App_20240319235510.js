@@ -64,7 +64,7 @@ function App() {
             play("scissors");
           }}
         >
-          <span>가위</span>
+          가위
         </button>
         <button
           className='rock'
@@ -80,7 +80,7 @@ function App() {
             play("paper");
           }}
         >
-          <span>보</span>
+          보
         </button>
       </div>
     </div>

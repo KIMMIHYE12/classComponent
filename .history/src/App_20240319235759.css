@@ -161,10 +161,9 @@ img {
 
 .btn_wrap button span {
   position: absolute;
-  left: 50%;
-  bottom: 3px;
-  color: white;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 700;
-  transform: translate(-50%, 0) scale(1, 0.75);
+  left: 50%;
+  bottom: 2px;
+  transform: translate(-50%, 0);
 }

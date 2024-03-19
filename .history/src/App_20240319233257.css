@@ -1,13 +1,5 @@
 @import url("https://use.typekit.net/ebb2deg.css");
 
-@font-face {
-  font-family: "GmarketSansMedium";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -85,29 +77,21 @@ img {
   border-radius: 50%;
   top: 0;
   outline: 0;
-  font-family: "GmarketSansMedium";
-  background-image: url(/public/images/btn_rock.png);
-  background-repeat: no-repeat;
-  background-size: 80% 60%;
-  background-position: top 5px center;
 }
 
 .btn_wrap button.scissors {
   background-color: #e83435;
   border: 1px solid #ec6666;
-  background-image: url(/public/images/btn_scissors.png);
 }
 
 .btn_wrap button.rock {
   background-color: #2551d1;
   border: 1px solid #8097dc;
-  background-image: url(/public/images/btn_rock.png);
 }
 
 .btn_wrap button.paper {
   background-color: #ebbb1f;
   border: 1px solid #dfcf98;
-  background-image: url(/public/images/btn_paper.png);
 }
 
 .btn_wrap button:before {
@@ -157,14 +141,4 @@ img {
 
 .btn_wrap button:active:before {
   top: 6px;
-}
-
-.btn_wrap button span {
-  position: absolute;
-  left: 50%;
-  bottom: 3px;
-  color: white;
-  font-size: 0.9rem;
-  font-weight: 700;
-  transform: translate(-50%, 0) scale(1, 0.75);
 }

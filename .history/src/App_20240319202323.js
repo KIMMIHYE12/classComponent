@@ -30,7 +30,7 @@ function App() {
     setUserSelect(choice[userChoice]);
     let computerChoice = remdomChoice();
     setComputerSelect(computerChoice);
-    setResult(judgement(choice[userChoice], computerChoice));
+    judgement(choice[userChoice], computerChoice);
   };
 
   const remdomChoice = () => {
@@ -42,13 +42,11 @@ function App() {
 
   const judgement = (user, computer) => {
     if (user.name == computer.name) {
-      return "Tie";
-    } else if (user.name == "Scissors")
-      return computer.name == "Paper" ? "Win" : "Lose";
+      return "tie";
+    } else if (user.name == "Scisser")
+      return computer.name == "Rock" ? "win" : "lose";
     else if (user.name == "Rock")
-      return computer.name == "Scissors" ? "Win" : "Lose";
-    else if (user.name == "Paper")
-      return computer.name == "Rock" ? "Win" : "Lose";
+      return computer.name == "Paper" ? "win" : "lose";
   };
 
   return (
@@ -64,7 +62,7 @@ function App() {
             play("scissors");
           }}
         >
-          <span>가위</span>
+          가위
         </button>
         <button
           className='rock'
@@ -72,7 +70,7 @@ function App() {
             play("rock");
           }}
         >
-          <span>바위</span>
+          바위
         </button>
         <button
           className='paper'
@@ -80,7 +78,7 @@ function App() {
             play("paper");
           }}
         >
-          <span>보</span>
+          보
         </button>
       </div>
     </div>

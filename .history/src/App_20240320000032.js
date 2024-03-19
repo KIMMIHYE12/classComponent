@@ -80,7 +80,7 @@ function App() {
             play("paper");
           }}
         >
-          <span>보</span>
+          <span>보</span>>
         </button>
       </div>
     </div>

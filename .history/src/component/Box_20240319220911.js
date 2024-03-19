@@ -15,7 +15,7 @@ export const Box = (props) => {
   }
 
   return (
-    <div className={`box ${result == "Lose" || result == "" ? "" : "neon"}`}>
+    <div className={`box ${result == "Lose" || "" ? "" : "neon"}`}>
       <h1>{props.title}</h1>
       <div className='img_wrap'>
         <img

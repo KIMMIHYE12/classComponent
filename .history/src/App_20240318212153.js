@@ -9,7 +9,7 @@ function App() {
         <Box title='COMPUTER' />
       </div>
       <div className='btn_wrap'>
-        <button className='scissor'>가위</button>
+        <button className='scissors'>가위</button>
         <button className='rock'>바위</button>
         <button>보</button>
       </div>

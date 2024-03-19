@@ -89,7 +89,7 @@ img {
   background-image: url(/public/images/btn_rock.png);
   background-repeat: no-repeat;
   background-size: 80% 60%;
-  background-position: top 5px center;
+  background-position: top 10px center;
 }
 
 .btn_wrap button.scissors {
@@ -157,14 +157,4 @@ img {
 
 .btn_wrap button:active:before {
   top: 6px;
-}
-
-.btn_wrap button span {
-  position: absolute;
-  left: 50%;
-  bottom: 3px;
-  color: white;
-  font-size: 0.9rem;
-  font-weight: 700;
-  transform: translate(-50%, 0) scale(1, 0.75);
 }
