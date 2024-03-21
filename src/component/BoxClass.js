@@ -5,6 +5,7 @@ export default class BoxClass extends Component {
     super();
     this.result = "";
   }
+
   getResult() {
     if (
       this.props.title === "COMPUTER" &&
@@ -36,6 +37,7 @@ export default class BoxClass extends Component {
         </div>
 
         <h2>{this.result}</h2>
+        <p>{this.score}</p>
       </div>
     );
   }
